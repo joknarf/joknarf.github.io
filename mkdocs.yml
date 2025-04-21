@@ -1,0 +1,18 @@
+site_name: Joknarf Tools
+site_url: https://joknarf.github.io/joknarf-tools/
+repo_url: https://github.com/joknarf/joknarf-tools
+repo_name: joknarf-tools
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Selector: selector.md
+  - Redo: redo.md
+  - Seedee: seedee.md
+  - Thefly: thefly.md
+  - Complete-ng: complete-ng.md
+  - Pywebfs: pywebfs.md
+  - Pywebexec: pywebexec.md
+  - Run-para: run-para.md
+  - Ssh-para: ssh-para.md
+  - Pgtree: pgtree.md
