@@ -4,6 +4,12 @@ repo_url: https://github.com/joknarf/joknarf-tools
 repo_name: joknarf-tools
 theme:
   name: material
+  language: en
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - toc.integrate
 nav:
   - Home: index.md
   - Selector: selector.md
