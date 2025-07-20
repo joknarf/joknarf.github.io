@@ -22,3 +22,4 @@ nav:
   - Run-para: run-para.md
   - Ssh-para: ssh-para.md
   - Pgtree: pgtree.md
+  - Sshautofs: sshautofs.md
