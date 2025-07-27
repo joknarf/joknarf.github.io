@@ -36,7 +36,8 @@ url: https://joknarf.github.io
 baseurl: 
 
 #remote_theme: mmistakes/minimal-mistakes # no post
-remote_theme: poole/lanyon
+#remote_theme: poole/lanyon
+remote_theme: pages-themes/hacker
 
 #
 # !! You don't need to change any of the configuration flags below !!
