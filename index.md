@@ -1,10 +1,20 @@
 ---
-layout: home
+layout: default
 title: "Welcome to Joknarf's Blog"
-author_profile: true
 ---
 
-Welcome!
+Unix and more...
 
-➡️ Check out [joknarf-tools](https://joknarf.github.io/joknarf-tools/) for my CLI utilities.
+➡️ [Visit Joknarf Tools](https://joknarf.github.io/joknarf-tools/)
+
+## Blog Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    </li>
+  {% endfor %}
+</ul>
 
