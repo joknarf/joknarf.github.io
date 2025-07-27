@@ -35,9 +35,6 @@ url: https://joknarf.github.io
 baseurl: 
 
 remote_theme: mmistakes/minimal-mistakes
-plugins:
-- jekyll-include-cache
-- jekyll-remote-theme 
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -63,9 +60,11 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-include-cache
+  - jekyll-remote-theme 
 
 # Exclude these files from your production _site
 exclude:
