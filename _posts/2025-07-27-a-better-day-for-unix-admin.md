@@ -22,6 +22,8 @@ Meet **thefly** and **shell‑ng**, two tools from my [joknarf suite][tools-page
 
 [thefly][thefly] is a **shell teleporter and plugin manager** for bash, zsh, and ksh:
 
+![shell-ng3](https://github.com/user-attachments/assets/431d6d71-0d0a-4fbc-bcb8-738cb1832880)
+
 - Install it via:
   ```bash
   . <(curl -s https://raw.githubusercontent.com/joknarf/thefly/main/thefly) install
