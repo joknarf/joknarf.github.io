@@ -35,8 +35,9 @@ url: https://joknarf.github.io
 baseurl: 
 
 remote_theme: mmistakes/minimal-mistakes
-#plugins:
-#- jekyll-remote-theme 
+plugins:
+- jekyll-include-cache
+- jekyll-remote-theme 
 
 #
 # !! You don't need to change any of the configuration flags below !!
