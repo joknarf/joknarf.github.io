@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome to Joknarf's Blog"
+title: "Joknarf"
 ---
 
 Unix and more...
@@ -9,12 +9,15 @@ Unix and more...
 
 ## Blog Posts
 
-<ul>
+<div class="posts">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-    </li>
+    <article class="post">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
   {% endfor %}
-</ul>
+</div>
 
