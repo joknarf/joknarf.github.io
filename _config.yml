@@ -49,6 +49,11 @@ url: https://joknarf.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
