@@ -35,7 +35,8 @@ url: https://joknarf.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: 
 
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: mmistakes/minimal-mistakes # no post
+remote_theme: poole/lanyon
 
 #
 # !! You don't need to change any of the configuration flags below !!
