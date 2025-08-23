@@ -3,6 +3,7 @@ layout: post
 title: "A Better Day for Unix Admin"
 date: 2025-07-27 06:00:00 +0000
 tags: [tools, shell, productivity, unix]
+author: joknarf
 ---
 
 Unix Admin daily job is often a **painful experience**, as you may need to connect to many servers to perform various tasks, and you may face several issues:
